@@ -1,6 +1,4 @@
-var dbconfig = require('./config/database');
-var mysql = require('mysql');
-var connection = mysql.createConnection(dbconfig.connection); 
+
 var userAgent = "mustafa!";
 var srv = require("http").Server(function () {}),
     io = require("socket.io")(srv),
@@ -25,11 +23,7 @@ io.on('connection', function (socket) {
   console.log(ip_address);
 
 
-
-  // when the client emits 'new message', this listens and executes
   socket.on('new message', function (data) {
-    // we tell the client to execute 'new message'
-    connection.query('insert into chat(user,ip,text) values("'+socket.username+'","'+ip_address+'","'+data+'")');
     socket.broadcast.emit('new message', {
       username: socket.username,
       message: data
