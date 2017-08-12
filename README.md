@@ -6,3 +6,8 @@ Hello guys today we build a simple chrome extension with nodejs and socket.io
 select project folder and upload codes
 <img class="size-full wp-image-497 aligncenter" src="http://kodizim.com/wp-content/uploads/2017/08/nickname.png" alt="" width="509" height="562" />
 <img class="size-full wp-image-497 aligncenter" src="http://kodizim.com/wp-content/uploads/2017/08/hello.png" alt="" width="508" height="567" />
+
+<pre>
+npm install
+node server.js
+</pre>
