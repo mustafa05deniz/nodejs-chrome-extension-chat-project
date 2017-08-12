@@ -1,7 +1,7 @@
 {
-    "name": "User-Agent-aux-server",
+    "name": "kodizim.com",
     "version": "0.0.1",
-    "description": "should be used in conjunction with the corresponding Chrome extension",
+    "description": "kodizim.com",
     "license": "UNLICENSED",
     "private": true,
     "dependencies": {
