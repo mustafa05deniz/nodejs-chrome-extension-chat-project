@@ -29,7 +29,7 @@ $(function() {
   var lastTypingTime;
   var $currentInput = $usernameInput.focus();
 
-  var socket = io("http://project.kodizim.com:4444");
+  var socket = io("http://localhost:4444");
 
   function addParticipantsMessage (data) {
     var message = '';
