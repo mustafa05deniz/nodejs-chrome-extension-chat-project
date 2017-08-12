@@ -1,12 +1,12 @@
 // config/database.js
 module.exports = {
     'connection': {
-        'host': '5.249.145.50', // localde iseniz bu , local değilse ip adresini yazınız .
-        'user': 'mustafa', // kullanıcı adı 
-        'password': 'Au6812a6812?<21', // şifreniz 
-        'database': 'chat'// database ismi .
+        'host': '127.0.0.1', // localde iseniz bu , local değilse ip adresini yazınız .
+        'user': 'root', // kullanıcı adı 
+        'password': 'pass', // şifreniz 
+        'database': 'db'// database ismi .
     },
-	'database': 'chat',
+	'database': 'db',
     
 };
 
