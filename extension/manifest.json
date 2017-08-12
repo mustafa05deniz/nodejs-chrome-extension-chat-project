@@ -1,0 +1,27 @@
+{
+    "manifest_version": 2,
+
+    "name": "senkronomous",
+    "description": "subadsense",
+    "version": "1.0",
+
+    "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "baslangic.html"
+    },
+
+    "background": {
+        "scripts": [
+            "socket.io-client-1.3.7/socket.io.js",
+            "main.js"
+        ]
+    },
+
+    "permissions": [
+        "tabs",
+        "activeTab",
+        "webRequest",
+        "webRequestBlocking"
+        // developer mod == "*://*/*"
+    ]
+}
